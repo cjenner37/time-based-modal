@@ -62,12 +62,11 @@ for ( i = 0 ; i < images.length ; i++ ) {
 		// Do not display the form
 		form.style.display = "none";
 		// Display the image clicked
-		modalContent.style.height = "500px";
-		modalContent.style.width = "";
 		modalContent.style.background = "url(" + this.src + ")";
 		modalContent.style.backgroundRepeat = "no-repeat";
-		modalContent.style.justifyContent = "center";
 		// Size modal to image
+		modalContent.style.height = "500px";
+		modalContent.style.width = "";
 		modalContent.style.backgroundSize = "contain";
 
 
