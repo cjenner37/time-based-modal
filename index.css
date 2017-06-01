@@ -44,8 +44,8 @@ body {
     background-color: lightgreen;
 }
 
-.grid-container {
-
+.grid-container img {
+    cursor: pointer;
 }
 
 .grid-container img {
@@ -89,9 +89,9 @@ body {
     margin: 200px auto;  /*15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 700px; /* Could be more or less, depending on screen size */
-    height: 370px;
     background-image: url("images/butthead.png");
+    height: 370px;
+    width: 700px;
     background-size: contain;
 }
 
