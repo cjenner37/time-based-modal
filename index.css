@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+/* Top Navbar */
+#top-navbar {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+#logo {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -9px;
+    font-family: helvetica;
+    vertical-align: middle;
+}
+
+#wmm {
+    vertical-align: -webkit-baseline-middle;
+}
+
+#w {
+    letter-spacing: -6px;
+}
+
+#name {
+    display: inline-block;
+}
+
+
+/* Body Container */
+#body-container {
+    height: 500px;
+    margin: 100px 0px 0px 220px;
+    background-color: lightgreen;
+}
+
+.grid-container {
+
+}
+
+.grid-container img {
+    max-width: 160px;
+    max-height: 160px;
+    float: left;
+    margin: 5px;
+}
+
+
+/* Side Navbar */
+#side-navbar {
+    position: fixed;
+    left: 0;
+    top: 81px;
+    width: 200px;
+    height: 100%;
+    background-color: lightblue;
+    border-right: 1px solid grey;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+#modal-content {
+    background-color: #fefefe;
+    box-shadow: 0px 0px 6px black;
+    margin: 200px auto;  /*15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 700px; /* Could be more or less, depending on screen size */
+    height: 370px;
+    background-image: url("images/butthead.png");
+    background-size: contain;
+}
+
+/* Image Modal */
+
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Signup Form */
+#form p {
+    font-size: 27px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#form {
+    color: lightblue;
+    font-size: 21px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#submit {
+    background-color: yellow;
+    border-style: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: 0px 0px 6px black;
+}
+
+
+#text-box {
+    background-color: lightgreen;
+    border-style: none;
+    border-radius: 2px;
+    margin-right: 7px;
+}
